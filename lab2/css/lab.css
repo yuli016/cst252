@@ -1,0 +1,27 @@
+body {
+  background-color: lightblue;
+  padding: 40px;
+}
+
+main.style {
+  background-color: mintcream;
+  padding: 40px;
+  border: dashed 10px brown;
+}
+
+h1 {
+  font-size: 4vw;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  line-height: 3.5vh;
+  word-spacing: 1px;
+  font-size: 1.3vw;
+}
+
+h2 {
+  font-size: 2vw;
+  color: brown;
+}
