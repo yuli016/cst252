@@ -25,3 +25,14 @@ h2 {
   font-size: 2vw;
   color: brown;
 }
+
+a.buttonlink {
+  color: mintcream;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: brown;
+  border-radius: 7px;
+  padding: 8px;
+  border: outset 5px lightblue;
+  text-decoration: none;
+}
