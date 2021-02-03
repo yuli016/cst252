@@ -2,16 +2,55 @@
 <html>
 <head>
 	<title>CST252 Homepage</title>
-	<link rel="stylesheet" type="text/css" href="css/sit.css">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Raleway:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+	<div class="topnav" id="myTopnav">
+	  <div class="dropdown">
+	    <button class="dropbtn">Labs</button>
+	    <div class="dropdown-content">
+				<a href="lab2/index.html">Lab 2: HTML & CSS Refresher</a>
+				<a href="lab3/index.html">Lab 3: File Structure & File Transfer</a>
+				<a href="lab4/index.html">Lab 4: Pseudocoding and Problem-Solving</a>
+				<a href="lab5/index.html">Lab 5: Data Types & Variables</a>
+				<a href="lab6/index.html">Lab 6: Arrays & Objects</a>
+				<a href="lab7/index.html">Lab 7: Functions</a>
+				<a href="lab8/index.html">Lab 8: Anon Functions & Callbacks</a>
+				<a href="lab9/index.html">Lab 9: JavaScript For The Web</a>
+				<a href="lab10/index.html">Lab 10: JavaScript Events and Forms</a>
+				<a href="lab11/index.html">Lab 11: Conditionals</a>
+				<a href="lab12/index.html">Lab 12: Loops</a>
+				<a href="lab13/index.html">Lab 13: Basic Debugging</a>
+				<a href="lab14/index.html">Lab 14: Javascript Classes & Objects</a>
+				<a href="lab15/index.html">Lab 15: Object-Oriented Design</a>
+				<a href="lab16/index.html">Lab 16: Libraries & Intro To jQuery</a>
+				<a href="lab17/index.html">Lab 17: Advanced jQuery</a>
+				<a href="lab18/index.html">Lab 18: Libraries & Frameworks 1</a>
+				<a href="lab19/index.html">Lab 19: AJAX</a>
+				<a href="lab20/index.html">Lab 20: JSON & APIs</a>
+				<a href="lab21/index.html">Lab 21: Git & Github</a>
+	    </div>
+	  </div>
+	</div>
+
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "topnav";
+	  }
+	}
+	</script>
+
 	<main class="decorate">
 		<h1>CST 252 Homepage</h1>
-		<img class="me" src="img/my-picture.jpg" style="width: 10%">
+		<img class="me" src="img/my-picture.jpg">
 		<p>My name is Yulitsa Pantoja and I’m a second year student majoring in
 		Communication Design with a concentration in Game Design.  I live in Greenfield
 		California with my family and some activities I enjoy doing are drawing, playing
@@ -23,31 +62,6 @@
 		experience using Javascript.  I’m going to enjoy learning how to use
 		Javascript to increase my skills to know how to create even better
 		functional well designed websites.</p>
-
-	  <div class="lab">
-		<h3>Labs</h3>
-		<ul>
-				<li><a href="lab2/index.html">Lab 2: HTML & CSS Refresher</a></li>
-				<li><a href="lab3/index.html">Lab 3: File Structure & File Transfer</a></li>
-				<li><a href="lab4/index.html">Lab 4: Pseudocoding and Problem-Solving</a></li>
-				<li><a href="lab5/index.html">Lab 5: Data Types & Variables</a></li>
-				<li><a href="lab6/index.html">Lab 6: Arrays & Objects</a></li>
-				<li><a href="lab7/index.html">Lab 7: Functions</a></li>
-				<li><a href="lab8/index.html">Lab 8: Anon Functions & Callbacks</a></li>
-				<li><a href="lab9/index.html">Lab 9: JavaScript For The Web</a></li>
-				<li><a href="lab10/index.html">Lab 10: JavaScript Events and Forms</a></li>
-				<li><a href="lab11/index.html">Lab 11: Conditionals</a></li>
-				<li><a href="lab12/index.html">Lab 12: Loops</a></li>
-				<li><a href="lab13/index.html">Lab 13: Basic Debugging</a></li>
-				<li><a href="lab14/index.html">Lab 14: Javascript Classes & Objects</a></li>
-				<li><a href="lab15/index.html">Lab 15: Object-Oriented Design</a></li>
-				<li><a href="lab16/index.html">Lab 16: Libraries & Intro To jQuery</a></li>
-				<li><a href="lab17/index.html">Lab 17: Advanced jQuery</a></li>
-				<li><a href="lab18/index.html">Lab 18: Libraries & Frameworks 1</a></li>
-				<li><a href="lab19/index.html">Lab 19: AJAX</a></li>
-				<li><a href="lab20/index.html">Lab 20: JSON & APIs</a></li>
-				<li><a href="lab21/index.html">Lab 21: Git & Github</a></li>
-		</div>
 	</main>
 
 
