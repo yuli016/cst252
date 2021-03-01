@@ -1,0 +1,107 @@
+body {
+  background-color: #ebe8d8;
+  font-size: 80%;
+  font-family: 'Roboto Mono', monospace;
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');
+}
+
+div#style {
+  border: dashed 10px #475161;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 15px;
+  background-color: #ff614c;
+}
+
+p {
+  font-size: 140%;
+  margin: 40px;
+  font-weight: bold;
+  line-height: 115%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: #475161;
+}
+
+#border {
+  background-color: #ebe8d8;
+  height: auto;
+  margin: 30px;
+  border-radius: 10px;
+  border: dashed 5px #bfdc36;
+}
+
+div#box {
+  background-color: #475161;
+  border: dashed 10px #ff614c;
+  margin: 30px;
+  padding: 5px 25px 10px 30px;
+}
+
+h1,h2,h3,h4,h5 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font style: bolder;
+  color: #ff614c;
+  font-style: oblique;
+  margin-left: 30px;
+  margin-right: 10px;
+  font-family: 'Quattrocento', serif, monospace, sans-serif;
+}
+
+div>h1 {
+  border: double 15px white;
+  background-color: #bfdc36;
+  padding: 7px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px 10px 30px 10px;
+}
+
+#output {
+  border: dotted 5px #ebe8d8;
+  margin: 30px;
+  padding: 15px;
+}
+
+.color-change {
+  color: white;
+  font-style: normal;
+}
+
+a.buttonlink {
+  color: #475161;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #bfdc36;
+  border-radius: 7px;
+  padding: 8px;
+  border: outset 5px white;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+div.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+#design {
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
