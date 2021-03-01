@@ -3,7 +3,7 @@
 //
 
 //Author:  Yulitsa Pantoja <ypantoja@csumb.edu>
-//Date:  2021
+//Date: 2021
 
 
 // Print the 3 choices before each game

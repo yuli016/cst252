@@ -1,6 +1,6 @@
 // lab.js
 // Learning how to use Javascript and playing with variables
-// Author: Yulitsa Pantoja <ypantoja@ucsc.edu>
+// Author: Yulitsa Pantoja <ypantoja@csumb.edu>
 // Source Credit: Wes Modes <wmodes@ucsc.edu>
 // Created: February 2021
 // License: Public Domain

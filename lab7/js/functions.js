@@ -1,4 +1,4 @@
-// lab.js
+// functions.js
 // Learning in Javascript how to use functions
 // Author: Yulitsa Pantoja <ypantoja@ucsc.edu>
 // Source Credit: Wes Modes <wmodes@ucsc.edu>
