@@ -1,0 +1,124 @@
+body {
+  background-color: #ffb06d;
+  font-size: 80%;
+  font-family: 'Roboto Mono', monospace;
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+}
+
+div#style {
+  border: dashed 10px #fe6a2c;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 15px;
+  background-color: #032859;
+}
+
+p {
+  font-size: 140%;
+  margin: 40px;
+  font-weight: bold;
+  line-height: 115%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: #016f94;
+}
+
+#border {
+  background-color: #ffe4b6;
+  height: auto;
+  margin: 30px;
+  border-radius: 10px;
+  border: dashed 5px #016f94;
+}
+
+div#box {
+  background-color: #016f94;
+  border: dashed 10px #ffe4b6;
+  margin: 30px;
+  padding: 5px 25px 10px 30px;
+}
+
+h1,h2,h3,h4,h5 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font style: bolder;
+  color: #fe6a2c;
+  font-style: oblique;
+  margin-left: 30px;
+  margin-right: 10px;
+  font-family: 'Quattrocento', serif, monospace, sans-serif;
+}
+
+h5.font {
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+button {
+  font-family: 'Merriweather', serif;
+  margin: 30px;
+}
+
+label {
+  font-family: 'Merriweather', serif;
+  color: white;
+  margin: 30px;
+}
+
+div>h1 {
+  border: double 15px #ffb06d;
+  background-color: #fe6a2c;
+  padding: 7px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px 10px 30px 10px;
+}
+
+#outline {
+  border: dotted 5px #ebe8d8;
+  margin: 30px;
+  padding: 15px;
+}
+
+.color-change {
+  color: white;
+  font-style: normal;
+}
+
+a.buttonlink {
+  color: #032859;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #fe6a2c;
+  border-radius: 7px;
+  padding: 8px;
+  border: outset 5px #ffe4b6;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+div.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+#design {
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
