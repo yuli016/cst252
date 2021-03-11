@@ -10,26 +10,26 @@
   // that takes a string as an argument: function sortingHat(name)
   function sortingHat (name) {
     // counts the letters in str and assigns it to a variable len
-    var len = name.length;
-    console.log("length:", len);
+    var length = name.length;
+    console.log("length:", length);
 
     // uses modulus (% operator) to get the remainder with 4: mod = len % 4;
-    var mod = len % 4;
-    console.log("mod:", mod);
+    var modulus = length % 4;
+    console.log("modulus:", modulus);
 
     // mod will now be a value between 0 and 3
     // create a conditional that will return Gryffindor, Ravenclaw, Slytherin,
     // and Hufflepuff depending on whether the value of mod is 0, 1, 2, or 3
-    if (mod == 0) {
+    if (modulus == 0) {
       outputElement.style.color = "#d92744"
       return "Black Eagles"
-    } else if (mod == 1) {
+    } else if (modulus == 1) {
         outputElement.style.color = "#3145a5"
         return "Blue Lions"
-    } else if (mod === 2) {
+    } else if (modulus === 2) {
         outputElement.style.color = "#c6a32c"
         return "Golden Deer"
-    } else if (mod == 3) {
+    } else if (modulus == 3) {
         outputElement.style.color = "#aba5cb"
         return "Ashen Wolves"
     }
@@ -52,6 +52,6 @@
       // use name to get house from SortingHat function
         var house = sortingHat(name);
       // output to output div (adding some text and HTML around the results)
-        var newText = "<div>This is the house you will be joining " + house +"</div>";
+        var newText = "<div>This is the house you will be joining, " + house +"</div>";
         document.getElementById("house-assigned").innerHTML = newText;
     })
