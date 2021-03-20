@@ -17,48 +17,48 @@
 
     //If the number is a multiples of 3, 5 and 7 , print “FizzBuzzBoom” instead of the number.
     if (i%105 ==0) {
-        printForNumber.innerHTML = " FizzBuzzBoom";
+        printForNumber.innerHTML = "FizzBuzzBoom";
         outputEl.appendChild(printForNumber);
         console.log("FizzBuzzBoom");
 
     //If the number is a multiples of 7 and 5, print “BoomBuzz” instead of the number.
     } else if (i%35 == 0) {
-      printForNumber.innerHTML = " BoomBuzz";
+      printForNumber.innerHTML = "BoomBuzz";
       outputEl.appendChild(printForNumber);
-        console.log("BoomBuzz");
+      console.log("BoomBuzz");
 
     //If the number is a multiples of 3 and 7, print “FizzBuzz” instead of the number.
     } else if (i%21 == 0) {
-      printForNumber.innerHTML = " FizzBoom";
+      printForNumber.innerHTML = "FizzBoom";
       outputEl.appendChild(printForNumber);
-        console.log("FizzBoom");
+      console.log("FizzBoom");
 
     //If the number is a multiples of 3 and 5, print “FizzBuzz” instead of the number.
     } else if (i%15 == 0) {
-      printForNumber.innerHTML = " FizzBuzz";
+      printForNumber.innerHTML = "FizzBuzz";
       outputEl.appendChild(printForNumber);
-        console.log("FizzBuzz");
+      console.log("FizzBuzz");
 
     //If the number is a multiple of 3, print “Fizz” instead of the number.
     } else if (i%3 == 0) {
-      printForNumber.innerHTML = " Fizz";
+      printForNumber.innerHTML = "Fizz";
       outputEl.appendChild(printForNumber);
       console.log("Fizz");
 
     //If the number is a multiple of 5, print “Buzz” instead of the number.
     } else if (i%5 == 0) {
-      printForNumber.innerHTML = " Buzz";
+      printForNumber.innerHTML = "Buzz";
       outputEl.appendChild(printForNumber);
       console.log("Buzz");
 
     //If the number is a multiple of 7, print “Boom” instead of the number.
     } else if (i%7 == 0) {
-      printForNumber.innerHTML = " Boom";
+      printForNumber.innerHTML = "Boom";
       outputEl.appendChild(printForNumber);
       console.log("Boom");
 
     } else {
-      printForNumber.innerHTML = i;
+      printForNumber.innerHTML = i + "";
       outputEl.appendChild(printForNumber);
       console.log(i);
     }
