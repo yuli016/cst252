@@ -1,23 +1,25 @@
-// prototypes.js
-// Learning about how to create a object prototypes in javascript
+// class.js
+// Learning about how use classes instead of prototypes in javascript
 // Author: Yulitsa Pantoja <ypantoja@csumb.edu>
 // Source Credit: Wes Modes <wmodes@ucsc.edu>
 // Created: March 2021
 // License: Public Domain
 
 
-// Create a constructor for vehicles called Vehicle, including make, model, year, color, and extras.
-    function Vehicle(make, model, year, color, extras) {
-      this.make = make;
-      this.model = model;
-      this.year = year;
-      this.color = color;
-      this.extras = extras;
-    // Add a method info() to your constructor that neatly returns a string with all that information
-    this.info = function() {
-      return this.color + " " + this.year + " " + this.make + " " +  this.model + " with " +  this.extras;
+  //Modify your JavaScript code to use classes instead of prototypes.
+    class Vehicle {
+      constructor(make, model, year, color, extras) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+        this.extras = extras;
+      }
+      info() {
+        return this.color + " " + this.year + " " + this.make + " " +
+        this.model + " with " +  this.extras;
+      }
     }
-  }
 
   // Instantiate objects with your constructor for every vehicle you've ever owned:
   var vehicles = [];

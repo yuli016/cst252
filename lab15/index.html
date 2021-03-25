@@ -1,11 +1,185 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<title>Lab 15: Object-Oriented Design</title>
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+		<script src="js/class.js" defer></script>
 </head>
 <body>
+	<div id="style">
+		<h1>Lab 15: Object-Oriented Design</h1>
+		<div id="border">
+			<p>In this lab I'm learning about javascript classes and redoing lab 14 but
+			using a differnt method classes to do a the same thing because classes are a
+			better way to do it.  Also writing a object oriented design about how
+			to code a hangman game.</p>
+		</div>
+
+		<div id="border">
+			<h2>Challenges</h2>
+			<p>It wasn't challenging to recreate lab 15 using the class method mostly it was
+			just one part to edit and using the lecture powerpoint and going over it during
+			classes was helpful to recreate it using class.  Comparing the two methods doing
+			the same thing class looks more organized and neat compare to using prototype.
+			Creating the object oriented design code for creating a hangman game wasn't
+			difficult to break down the process of thinking how to psedocode the approach
+			assigning object to javascript-ish pseudocode the program.</p>
+		</div>
+
+		<div id="border">
+			<h2>Problems</h2>
+			<p>I didn't have any problems with lab 15 class codes or creating the
+			object oriented design for the hangman game.</p>
+		</div>
+
+		<div id="border">
+			<h2>Results</h2>
+			<p>Here you can see I have created a class using a constructor to list
+			some vehicles I use to get around.  Also a object oriented design for a
+			hangman game showing the step with the details.</p>
+		</div>
+
+			<div id="outline">
+				<h2 class="color-change">Script Output</h2>
+				<ul id="output"></ul>
+			</div><br>
+
+			<div id="outline">
+				<h1>Object-Oriented Design for Hangman</h1>
+				<h2 class="color-change">Understanding The Problem</h2>
+				<div id="tab">
+					//Creating a Hangman game with 2 players<br>
+			    //One player will decide the word for game
+					//the other player will guess the letters to make the full word<br>
+			    //Guesser player will only have 6 tries to guess word<br>
+			    //Each players will take turns doing each role<br>
+
+			    // Create the initially of the board set up and give role to players<br>
+			    // Game Loop<br>
+			    // Draw the board<br>
+			    //Get letter to use from decider player<br>
+			    // Get move from guessing player<br>
+			    //guesser player select a letter from list<br>
+			    // Check for validate selection<br>
+			    // Check for win (or lose) condition<br>
+			    // Switch players' role<br>
+				</div>
+
+				<h2 class="color-change">Pseudocode The High Level Approach</h2>
+				<div id="tab">
+					//Setting up the game initially<br><br>
+			      //Create the game board<br>
+			      //create the players<br>
+			      //give each role to players<br>
+
+			      //Start the game Loop<br><br>
+			        //Render the borad<br>
+			        //ask player with decider role to type word<br>
+			        //print the amount of space of the word choosen<br>
+			        //ask player with guesser role to select a word from choice<br>
+			        //if guesser player selects correct letter type in space<br>
+			        //if guesser player selects incorrect letter draw one part of stickman<br>
+			        //Continue this loop process until guesser player guesses correct or fails 6 times<br>
+			        //If the game should end<br>
+			        //Display the proper victory or lose message<br>
+			        //stop the looping<br>
+
+			        //Else<br><br>
+			          //ask player to continue again with game<br>
+			          //switch roles to the next players and keep looping<br>
+				</div>
+
+				<h2 class="color-change">Assign Actions To Objects</h2>
+				<div id="tab">
+					//Setting up the game initially [Hangman]<br><br>
+						// Create the game board [Board]<br>
+						// create the players [Player]<br>
+						// give each role to players [Player]<br>
+
+						//Start the game Loop [Hangman]<br><br>
+							//Render the borad [Board]<br>
+							//ask player with decider role to type word [Player]<br>
+							//print the amount of space of the word choosen [Board]<br>
+							//ask player with guesser role to select a word from choice [Player]<br>
+							//if guesser player selects correct letter print in space [Board]<br>
+							//if guesser player selects incorrect letter draw one part of stickman [Board]<br>
+							//Continue this loop process until guesser player guesses correct or fails 6 times [Board]<br>
+							//If the game should end [Hangman]<br>
+							//Display the proper victory or lose message<br>
+							//stop the looping<br>
+
+							// Else<br>
+							//ask player to continue again with game [Player]<br>
+							//switch roles to the next players and keep looping [Hangman]<br>
+				</div>
+				<h2 class="color-change">Make Javascript-ish Pseudocode</h2>
+				<div id="tab">
+					//Controls to play Hangman<br>
+			      //initiialize<br>
+			        //set up the board<br>
+			        //set up the players<br>
+			        //assign the roles to each player<br><br>
+
+			      //gameplay<br>
+			        //loop infinitely<br>
+			          //call the board rendering method<br>
+			          //ask decider player to choose the word<br>
+			          //ask for guesser player to select a letter from listing<br>
+			          //if guesser player selects letter correct print letter in location<br>
+			          //if guesser player selects letter incorrect draw one part of stickman body<br>
+			          //break the loop if the game is over<br>
+			          //ask to continue another gameplay<br>
+			          //switch the roles for players<br><br>
+
+			      //check_game_over<br>
+			        //check for victory<br>
+			        //check for lose<br><br>
+
+			      //check for victory<br>
+			        //If board says current player's choosen all letters correctly<br>
+			          //display a victory message "Victory"<br><br>
+
+			      //check for lose<br>
+			        //If board says current player's choosen all letters incorrectly 6 times<br>
+			          //display a lose message "Lose"<br>
+				</div>
+					<li>Hangman class manages the high-level game functions like setting up the
+					board, looping through the turns, and asking questions of other objects
+					to determine whether the game is over.</li>
+					<li>Player class handles interaction with the human player, including asking to
+					select letter or deciding the word.  It validates whether the letters are
+					correct or incorrect.</li>
+					<li>Board class handles maintaining the state of the board, returing any necessary data
+					like if the letters select throught game completes the word or not.</li>
+
+			</div><br>
+
+		<nav class="assignments major-section">
+			<a class="buttonlink" href="js/class.js" target=_"blank">Javascript</a>
+		</nav><br>
+
+		<nav class="assignments major-section">
+			<a class="buttonlink" href="js/hangman.js" target=_"blank">Hangman</a>
+		</nav><br>
+
+		<nav class="assignments major-section">
+			<a class="buttonlink" href="css/lab.css" target=_"blank">CSS</a>
+		</nav><br>
+	</div><br>
+
+	<div id="box">
+	<h1>Screenshots</h1>
+		<div class="row">
+			<div class="column">
+				<img src="img/lab15codes.jpg">
+				<figcaption id="design">Lab 15 Codes</figcaption>
+			</div>
+			<div class="column">
+				<img src="img/local.jpg">
+				<figcaption id="design">Lab 15 Working Locally</figcaption>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
