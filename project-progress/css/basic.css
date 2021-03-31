@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap');
+}
+
+.center-box {
+  padding: 7vh 7vw;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline red;
+}
+
+/*h1 */
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 7vw;
+  }
+}
+
+
+h2 {
+  text-align: center;
+  padding: 5px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  line-height: 150%;
+}
+
+@media screen and (min-width: 601px) {
+  p {
+    font-size: 30px;
+  }
+}

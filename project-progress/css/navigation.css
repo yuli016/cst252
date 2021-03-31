@@ -1,0 +1,70 @@
+.topnav {
+  overflow: hidden;
+  background-color: #33383b;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 5px solid white;
+  color: red;
+  text-decoration: none;
+}
+
+.topnav a.active {
+  border-bottom: 5px solid white;
+}
+
+
+@media screen and (min-width: 700px) {
+  .topnav a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .topnav a {
+    font-size: 25px;
+  }
+}
+
+
+
+
+/* footer decorations */
+footer {
+  padding: 5vh 7vw;
+}
+
+#left {
+  text-align: left;
+}
+
+#footer {
+  background-color: #33383b;
+}
+
+
+.footer-link {
+  color: white;
+  text-align: center;
+}
+
+.list-unstyled,.text-uppercase {
+  text-align: center;
+}
+
+.footer-link:hover {
+  color: red;
+}
