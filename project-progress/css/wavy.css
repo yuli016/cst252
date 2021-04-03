@@ -32,8 +32,16 @@
 }
 
 #time {
-  color: red;
+  color: white;
   font-weight: 600;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 640px) {
+  #time {
+    font-size: 20px;
+  }
 }
 
 

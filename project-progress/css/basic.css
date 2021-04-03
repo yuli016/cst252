@@ -49,3 +49,7 @@ p {
     font-size: 30px;
   }
 }
+
+img {
+  width: 100%;
+}

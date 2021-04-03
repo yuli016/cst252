@@ -39,9 +39,6 @@
   }
 }
 
-
-
-
 /* footer decorations */
 footer {
   padding: 5vh 7vw;
@@ -49,6 +46,7 @@ footer {
 
 #left {
   text-align: left;
+  font-size: 25px;
 }
 
 #footer {
