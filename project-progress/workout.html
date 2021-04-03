@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Workout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/wavy.css">
+    <link rel="stylesheet" href="css/hide-show.css">
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+    <script src="js/workout.js" defer></script>
+    <script src="js/time.js" defer></script>
+    <script src="js/timer.js" defer></script>
+    <script src="js/fade.js" defer></script>
+  </head>
+  <body>
+
+    <div class="topnav">
+      <a class="active" href="./homepage.html">Home</a>
+      <a href="./bmi.html">BMI</a>
+      <a href="./workout.html">Workout</a>
+      <a href="./about-us.html">About Us</a>
+    </div>
+
+    <div class="top-large-img">
+      <div class="top-right"><span id="time"></span></div>
+      <img class="background-img" src="img/work.jpg">
+      <div class="text">Workouts</div>
+    </div>
+
+    <div class="custom-shape-divider-top-1616804317">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <div class="center-box">
+        <h1>Benfits</h1>
+        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
+
+        <p>Input the time in minutes and click start</p>
+  	    <div id="inputArea"></div>
+  		    <h2 id="timer">0:00</h2>
+
+      <h3 id="goto">Select Workout</h3><br>
+      <div class="buttons">
+        <button class="workout-button" onclick="toggleVisibility('yoga');">Yoga</button>
+        <button class="workout-button" onclick="toggleVisibility('lift');">Weight Lifting</button>
+        <button class="workout-button" onclick="toggleVisibility('pushup');">Push-Ups</button>
+        <button class="workout-button" onclick="toggleVisibility('situp');">Sit-Ups</button>
+      </div><br><br>
+
+      <div id="yoga"><!--Yoga Div Start -->
+        <h3 data-aos="fade-up">Yoga</h3>
+        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h3 data-aos="fade-up">Equiment Required</h3>
+        <ul>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+        </ul><br>
+
+        <h3 data-aos="fade-up">Instructions</h3>
+        <ol>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+        </ol><br>
+
+        <h3 data-aos="fade-up">Tutorials</h3>
+        <div class="video-container">
+          <iframe data-aos="fade-up" class="responsive-iframe" src="https://www.youtube.com/embed/v4coxDl_avw"></iframe>
+        </div>
+      </div><!--Yoga Div End -->
+
+      <div id="lift"><!--Lift Div Start -->
+        <h3 data-aos="fade-up">Weight Lifting</h3>
+        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h3 data-aos="fade-up">Equiment Required</h3>
+        <ul>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+        </ul><br>
+
+        <h3 data-aos="fade-up">Instructions</h3>
+        <ol>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+        </ol><br>
+
+        <h3 data-aos="fade-up">Tutorials</h3>
+        <div class="video-container">
+          <iframe data-aos="fade-up" class="responsive-iframe" src="https://www.youtube.com/embed/m6xJL_e8-Gg"></iframe>
+        </div>
+      </div><!--Lift Div End -->
+
+
+      <div id="pushup"><!--Pushup Div Start -->
+        <h3 data-aos="fade-up">Push-Ups</h3>
+        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h3 data-aos="fade-up">Equiment Required</h3>
+        <ul>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+        </ul><br>
+
+        <h3 data-aos="fade-up">Instructions</h3>
+        <ol>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+        </ol><br>
+
+        <h3 data-aos="fade-up">Tutorials</h3>
+        <div class="video-container">
+          <iframe data-aos="fade-up" class="responsive-iframe" src="https://www.youtube.com/embed/m6xJL_e8-Gg"></iframe>
+        </div><br>
+
+        <div class="flex-container">
+          <div data-aos="fade-up" class="flex-item-left">
+            <div class="video-container">
+              <iframe data-aos="fade-up" class="responsive-iframe" src="https://www.youtube.com/embed/m6xJL_e8-Gg"></iframe>
+            </div>
+          </div><br>
+
+          <div data-aos="fade-up" class="flex-item-left">
+            <div class="video-container">
+              <iframe data-aos="fade-up" class="responsive-iframe" src="https://www.youtube.com/embed/m6xJL_e8-Gg"></iframe>
+            </div>
+          </div><br>
+        </div>
+
+      </div><!--Pushup Div End -->
+
+      <div id="situp"><!--Situp Div Start -->
+        <h3 data-aos="fade-up">Sit-Ups</h3>
+        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h3 data-aos="fade-up">Equiment Required</h3>
+        <ul>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+        </ul><br>
+
+        <h3 data-aos="fade-up">Instructions</h3>
+        <ol>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+          <li data-aos="fade-up">...</li>
+        </ol><br>
+
+        <h3 data-aos="fade-up">Tutorials</h3>
+        <div class="video-container">
+          <iframe data-aos="fade-up" class="responsive-iframe" src="https://www.youtube.com/embed/m6xJL_e8-Gg"></iframe>
+        </div>
+      </div><!--Situp Div End -->
+    </div>
+
+    <div class="custom-shape-divider-bottom-1616804317">
+        <svg data-name="Layer 1" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 id="left">INFO</h5>
+            <p id="left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+            aliquam voluptatem veniam, est atque cumque eum delectus sint!</p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Workout</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                 <a href="#goto" onclick="toggleVisibility('yoga');" class="footer-link">Yoga</a>
+              </li>
+              <li>
+                <a href="#goto" onclick="toggleVisibility('lift');" class="footer-link">Weight Lifting</a>
+              </li>
+              <li>
+                <a href="#goto" onclick="toggleVisibility('pushup');" class="footer-link">Push-Ups</a>
+              </li>
+              <li>
+                <a href="#goto" onclick="toggleVisibility('situp');" class="footer-link">Sit-Ups</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-0">Team</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="./about-us.html#michael-owen" class="footer-link">Michael Owen</a>
+              </li>
+              <li>
+                <a href="./about-us.html#lexi-branon" class="footer-link">Lexi Branon</a>
+              </li>
+              <li>
+                <a href="./about-us.html#yulitsa-pantoja" class="footer-link">Yulitsa Pantoja</a>
+              </li>
+              <li>
+                <a href="./about-us.html#rylee-hernandez" class="footer-link">Rylee Hernandez</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </footer>
+    <!-- Footer -->
+
+  </body>
+</html>
