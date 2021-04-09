@@ -9,13 +9,13 @@ html {
 /* paragraph info */
 @media screen and (min-width: 601px) {
   .info {
-    font-size: 25px;
+    font-size: 23px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .info {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 

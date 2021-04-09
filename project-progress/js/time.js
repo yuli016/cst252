@@ -5,3 +5,5 @@ function myTimer() {
   var t = d.toLocaleTimeString();
   document.getElementById("time").innerHTML = t;
 }
+
+w3.slideshow(".slide", 3500);

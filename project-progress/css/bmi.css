@@ -1,0 +1,96 @@
+
+#us-map{
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+path:hover, circle:hover {
+  stroke: white !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  cursor: pointer;
+}
+
+.red:hover {
+  fill: #650c0c !important;
+}
+
+.yellow:hover {
+  fill: #faf400 !important;
+}
+
+.orange:hover {
+  fill: #f45c2f !important;
+}
+
+.green:hover, circle.green:hover {
+  fill: #9dd460 !important;
+}
+
+#gr:hover {
+  fill: #9dd460
+}
+
+#path67 {
+  fill: none !important;
+  stroke: purple !important;
+  cursor: default;
+}
+
+h4 {
+  text-align: center;
+}
+
+.custom-shape-divider-bottom-1616804317,.custom-shape-divider-top-1616804317 {
+  pointer-events: none;
+}
+
+div.text-color {
+  color: black;
+}
+
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+form {
+  background-color: white;
+  color: black;
+  padding: 30px;
+  border-top: red 8px solid;
+  border-bottom: red 8px solid;
+  border-radius: 8px;
+  margin: 0;
+}
+
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
