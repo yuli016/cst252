@@ -31,8 +31,53 @@ path:hover, circle:hover {
   fill: #9dd460 !important;
 }
 
-#gr:hover {
-  fill: #9dd460
+.green.normal {
+  fill: #9dd460;
+}
+
+.yellow.over {
+  fill: #faf400;
+}
+
+.orange.obese {
+  fill: #f45c2f;
+}
+
+.red.extremly {
+  fill: #650c0c;
+}
+
+.white.nodata {
+  fill: #707070;
+}
+
+#gr,#ye,#or,#re,#wh {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+}
+
+#gr.greencolor {
+  background-color: #9dd460;
+}
+
+#ye.yellowcolor {
+  background-color: #faf400;
+}
+
+#or.orangecolor {
+  background-color: #f45c2f;
+  color: white;
+}
+
+#re.redcolor {
+  background-color: #650c0c;
+  color: white;
+}
+
+#wh.whitecolor {
+  background-color: #707070;
+  color: white;
 }
 
 #path67 {
@@ -66,6 +111,8 @@ div.text-color {
   font-family: arial;
 }
 
+
+
 form {
   background-color: white;
   color: black;
@@ -73,8 +120,30 @@ form {
   border-top: red 8px solid;
   border-bottom: red 8px solid;
   border-radius: 8px;
-  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/*h1 */
+@media screen and (min-width: 601px) {
+  form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  form {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  form {
+    width: 35%;
+  }
+}
+
 
 #menu-outer {
 	height: 84px;

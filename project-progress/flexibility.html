@@ -17,23 +17,33 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script src="js/workout.js" defer></script>
     <script src="js/time.js" defer></script>
-    <script src="js/timer.js" defer></script>
     <script src="js/fade.js" defer></script>
+    <script src="js/timer.js" defer></script>
   </head>
   <body>
 
-    <div class="topnav">
-      <a class="active" href="./homepage.html">Home</a>
+    <div class="bar">
+      <a href="./homepage.html">Home</a>
       <a href="./bmi.html">BMI</a>
-      <a href="./workout.html">Workout</a>
+      <div class="dropbox">
+        <button class="dropbtn">Workouts</button>
+          <div class="dropbox-content">
+            <a href="./balance.html">Balance</a>
+            <a href="./strength.html">Strength</a>
+            <a href="./flexibility.html">Flexibility</a>
+            <a href="./endurance.html">Endurance</a>
+          </div>
+      </div>
       <a href="./about-us.html">About Us</a>
     </div>
 
     <div class="top-large-img">
       <div class="top-right"><span id="time"></span></div>
-      <img class="slide" class="background-img" src="img/work.jpg">
-      <img class="slide" class="background-img" src="img/yoga.jpg">
-      <div class="text">Workouts</div>
+      <img class="slide" class="background-img" src="img/cat1.jpg">
+      <img class="slide" class="background-img" src="img/cat3.jpg">
+      <img class="slide" class="background-img" src="img/cat2.jpg">
+      <img class="slide" class="background-img" src="img/cat4.jpg">
+      <div class="text">Flexibility</div>
     </div>
 
     <div class="custom-shape-divider-top-1616804317">
@@ -60,7 +70,7 @@
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
 
-        <p>Input the time in minutes and click start</p>
+        <h5>Input the time in minutes</h5>
   	    <div id="inputArea"></div>
   		    <h2 id="timer">0:00</h2>
 
@@ -229,20 +239,20 @@
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Workout</h5>
+            <h5 class="text-uppercase">Workouts</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                 <a href="#goto" onclick="toggleVisibility('yoga');" class="footer-link">Yoga</a>
+                 <a href="./balance.html" class="footer-link">Balance</a>
               </li>
               <li>
-                <a href="#goto" onclick="toggleVisibility('lift');" class="footer-link">Weight Lifting</a>
+                <a href="./strength.html" class="footer-link">Strength</a>
               </li>
               <li>
-                <a href="#goto" onclick="toggleVisibility('pushup');" class="footer-link">Push-Ups</a>
+                <a href="./flexibility.html" class="footer-link">Flexibility</a>
               </li>
               <li>
-                <a href="#goto" onclick="toggleVisibility('situp');" class="footer-link">Sit-Ups</a>
+                <a href="./endurance.html" class="footer-link">Endurance</a>
               </li>
             </ul>
           </div>

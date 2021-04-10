@@ -14,28 +14,42 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"/>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
 
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/wavy.css">
     <link rel="stylesheet" href="css/home.css">
+    <script src="js/slides.js" defer></script>
     <script src="js/time.js" defer></script>
     <script src="js/fade.js" defer></script>
   </head>
   <body>
 
-    <div class="topnav">
-      <a class="active" href="./homepage.html">Home</a>
+    <div class="bar">
+      <a href="./homepage.html">Home</a>
       <a href="./bmi.html">BMI</a>
-      <a href="./workout.html">Workout</a>
+      <div class="dropbox">
+        <button class="dropbtn">Workouts</button>
+          <div class="dropbox-content">
+            <a href="./balance.html">Balance</a>
+            <a href="./strength.html">Strength</a>
+            <a href="./flexibility.html">Flexibility</a>
+            <a href="./endurance.html">Endurance</a>
+          </div>
+      </div>
       <a href="./about-us.html">About Us</a>
     </div>
 
     <div class="top-large-img">
-      <img class="background-img" src="img/work.jpg">
       <div class="top-right"><span id="time"></span></div>
+      <img class="slide" class="background-img" src="img/cat1.jpg">
+      <img class="slide" class="background-img" src="img/cat3.jpg">
+      <img class="slide" class="background-img" src="img/cat2.jpg">
+      <img class="slide" class="background-img" src="img/cat4.jpg">
       <div class="text">Website Name</div>
     </div>
+
 
     <div class="custom-shape-divider-top-1616804317">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -146,20 +160,20 @@
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Workout</h5>
+            <h5 class="text-uppercase">Workouts</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="./workout.html#goto" class="footer-link">Yoga</a>
+                 <a href="./balance.html" class="footer-link">Balance</a>
               </li>
               <li>
-                <a href="./workout.html#goto" class="footer-link">Weight Lifting</a>
+                <a href="./strength.html" class="footer-link">Strength</a>
               </li>
               <li>
-                <a href="./workout.html#goto" class="footer-link">Push-Ups</a>
+                <a href="./flexibility.html" class="footer-link">Flexibility</a>
               </li>
               <li>
-                <a href="./workout.html#goto" class="footer-link">Sit-Ups</a>
+                <a href="./endurance.html" class="footer-link">Endurance</a>
               </li>
             </ul>
           </div>

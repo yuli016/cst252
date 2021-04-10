@@ -2,7 +2,7 @@ var mySeconds;
 var intervalHandle;
 
 	function resetPage(){
-		document.getElementById("inputArea").style.display="none";
+		document.getElementById("inputArea").style.display="block";
 	}
 
 		function tick(){
@@ -20,7 +20,7 @@ var intervalHandle;
 			timeDisplay.innerHTML=message;
 
 			if(mySeconds===0){
-				alert("Done");
+				alert("Your Workout is Done!");
 				clearInterval(intervalHandle);
 				resetPage();
 			}

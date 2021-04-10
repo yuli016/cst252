@@ -47,21 +47,45 @@
 
     // (C) Show Results
     if (bmi < 18.5) {
-      results.innerHTML = bmi + " - Underweight";
+      results.innerHTML = bmi + " You are underweight";
     } else if (bmi < 25) {
-      results.innerHTML = bmi + " - Normal weight";
+      results.innerHTML = bmi + " You are Normal weight";
     } else if (bmi < 30) {
-      results.innerHTML = bmi + " - over weight";
+      results.innerHTML = bmi + " You are over weight";
     } else if (bmi < 35) {
-      results.innerHTML = bmi + " - Obesity class I";
+      results.innerHTML = bmi + " You are obese";
     } else if (bmi < 40) {
-      results.innerHTML = bmi + " - Obesity class II";
+      results.innerHTML = bmi + " You are extremly obese";
     } else {
-      results.innerHTML = bmi + " - Obesity class III";
+      results.innerHTML = bmi + " You are extremly obese";
     }
     return false;
   }
 
+    $("#gr").click(function() {
+      $('.green').toggleClass("normal");
+      $('#gr').toggleClass("greencolor");
+    });
+
+    $("#ye").click(function() {
+      $('.yellow').toggleClass("over");
+      $('#ye').toggleClass("yellowcolor");
+    });
+
+    $("#or").click(function() {
+      $('.orange').toggleClass("obese");
+      $('#or').toggleClass("orangecolor");
+    });
+
+    $("#re").click(function() {
+      $('.red').toggleClass("extremly");
+      $('#re').toggleClass("redcolor");
+    });
+
+    $("#wh").click(function() {
+      $('.white').toggleClass("nodata");
+      $('#wh').toggleClass("whitecolor");
+    });
 
 // source: https://websitebeaver.com/how-to-make-an-interactive-and-responsive-svg-map-of-us-states-capitals
     $("path, circle").hover(function(e) {
