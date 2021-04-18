@@ -1,0 +1,117 @@
+body {
+  background-color: #e9d879;
+  font-size: 80%;
+  font-family: 'Roboto Mono', monospace;
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');
+}
+
+div#style {
+  border: dashed 10px #131d1b;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 15px;
+  background-color: #c7c730;
+}
+
+p {
+  font-size: 140%;
+  margin: 40px;
+  font-weight: bold;
+  line-height: 115%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#border {
+  background-color: #17504f;
+  height: auto;
+  margin: 30px;
+  border-radius: 10px;
+  border: dashed 5px #e9d879;
+}
+
+div#box {
+  background-color: #17504f;
+  border: dashed 10px #c7c730;
+  margin: 30px;
+  padding: 5px 25px 10px 30px;
+}
+
+h1,h2,h3,h4,h5 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font style: bolder;
+  color: #e9d879;
+  font-style: oblique;
+  margin-left: 30px;
+  margin-right: 10px;
+  font-family: 'Quattrocento', serif, monospace, sans-serif;
+}
+
+div>h1 {
+  border: double 15px #e9d879;
+  background-color: #131d1b;
+  padding: 7px;
+  color: #fafaf7;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px 10px 30px 10px;
+}
+
+#outline {
+  border: dotted 5px #131d1b;
+  margin: 30px;
+  padding: 15px;
+}
+
+p#output {
+  margin: 30px;
+  color: #17504f;
+}
+
+button {
+  padding: 10px;
+  margin: 30px;
+}
+
+.color-change {
+  color: white;
+}
+
+a.buttonlink {
+  color: #17504f;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #f6f4e7;
+  border-radius: 7px;
+  padding: 8px;
+  border: outset 5px  #131d1b;
+  text-decoration: none;
+  margin: 30px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+div.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+#design {
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
