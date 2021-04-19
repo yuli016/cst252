@@ -1,6 +1,7 @@
 // ajax.js
 // Learning about ajax
 // Author: Yulitsa Pantoja <ypantoja@csumb.edu>
+// Source Credit: Wes Modes <wmodes@csumb.edu>
 // Created: April 2021
 // License: Public Domain
 
