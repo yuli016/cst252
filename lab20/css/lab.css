@@ -1,0 +1,126 @@
+body {
+  background-color: #9fc4d6;
+  font-size: 80%;
+  font-family: 'Roboto Mono', monospace;
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');
+}
+
+div#style {
+  border: dashed 10px #dceaa4;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 15px;
+  background-color: #45616c;
+}
+
+div#tab {
+  margin: 30px;
+}
+
+li {
+  font-weight: 900;
+  margin: 30px;
+}
+
+p {
+  font-size: 140%;
+  margin: 40px;
+  font-weight: bold;
+  line-height: 115%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: #e4e6e6;
+}
+
+#border {
+  background-color: #293933;
+  height: auto;
+  margin: 30px;
+  border-radius: 10px;
+  border: dashed 5px #e4e6e6;
+}
+
+div#box {
+  background-color: #293933;
+  border: dashed 10px #e4e6e6;
+  margin: 30px;
+  padding: 5px 25px 10px 30px;
+}
+
+h1,h2,h3,h4,h5 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font style: bolder;
+  color: #eaf2ac;
+  font-style: oblique;
+  margin-left: 30px;
+  margin-right: 10px;
+  font-family: 'Quattrocento', serif, monospace, sans-serif;
+}
+
+div>h1 {
+  border: double 15px white;
+  background-color: #dceaa4;
+  padding: 7px;
+  color: #496b73;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px 10px 30px 10px;
+}
+
+#outline {
+  border: dotted 5px white;
+  margin: 30px;
+  padding: 15px;
+  color: white;
+}
+
+a.buttonlink {
+  color: #2f4038;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #a3c9d9;
+  border-radius: 7px;
+  padding: 8px;
+  border: outset 5px #eaf2ac;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#next, #prev {
+  left: 50%;
+  color: green;
+  align-content: space-evenly;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+}
+
+div#output img {
+  width: 45%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+div.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+#design {
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: 'Roboto Mono', monospace;
+  color: #a3c9d9;
+}
