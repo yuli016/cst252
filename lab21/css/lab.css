@@ -1,0 +1,108 @@
+body {
+  background-color: #a6662e;
+  font-size: 80%;
+  font-family: 'Roboto Mono', monospace;
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&family=Roboto+Mono&display=swap');
+}
+
+div#style {
+  border: dashed 10px #0d0201;
+  border-radius: 20px;
+  margin: 30px;
+  padding: 15px;
+  background-color: #f2e4bb;
+}
+
+p {
+  font-size: 140%;
+  margin: 40px;
+  font-weight: bold;
+  line-height: 115%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  color: #260902;
+}
+
+#border {
+  background-color: #bfb6ae;
+  height: auto;
+  margin: 30px;
+  border-radius: 10px;
+  border: dashed 5px #7e8c14;
+}
+
+div#box {
+  background-color: #7e8c14;
+  border: dashed 10px #f2e4bb;
+  margin: 30px;
+  padding: 5px 25px 10px 30px;
+}
+
+h1,h2,h3,h4,h5 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font style: bolder;
+  color: #a6662e;
+  font-style: oblique;
+  margin-left: 30px;
+  margin-right: 10px;
+  font-family: 'Quattrocento', serif, monospace, sans-serif;
+}
+
+div>h1 {
+  border: double 15px #bfb6ae;
+  background-color: #260902;
+  padding: 7px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 30px 10px 30px 10px;
+}
+
+#outline {
+  border: dotted 5px #0d0201;
+  margin: 30px;
+  padding: 15px;
+}
+
+.color-change {
+  color: #0d0201;
+  font-style: normal;
+}
+
+a.buttonlink {
+  color: #f2e4bb;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #7e8c14;
+  border-radius: 7px;
+  padding: 8px;
+  border: outset 5px #260902;
+  text-decoration: none;
+  margin: 30px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+div.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+#design {
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+  border-radius: 10px;
+  padding: 8px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
